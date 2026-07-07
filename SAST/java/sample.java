@@ -7,7 +7,7 @@ public class Sample {
         String password = "sensitivePassword";
         System.out.println("Received password: " + password);
 
-        // Command Injection (SAST finding)
+        // Command Injection (SAST finding)[
         if (args.length > 0) {
             String command = "ping " + args[0];
             Runtime.getRuntime().exec(command);
