@@ -1,10 +1,16 @@
-public class Sample {
-    public static void main(String[] args) {
-      String password = "sensitivePassword";
-      System.out.println("Received password: " + password);
-    }
-  }
+import java.io.IOException;
 
-// (CWE-259)
-// This sample Java file includes code that prints a sensitive password to the console. 
-// It can be used to test SAST tools' capability to detect hardcoded passwords.
+public class Sample {
+    public static void main(String[] args) throws IOException {
+
+        // Hardcoded credential (SAST finding)
+        String password = "sensitivePassword";
+        System.out.println("Received password: " + password);
+
+        // Command Injection (SAST finding)
+        if (args.length > 0) {
+            String command = "ping " + args[0];
+            Runtime.getRuntime().exec(command);
+        }
+    }
+}
