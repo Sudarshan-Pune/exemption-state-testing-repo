@@ -1,7 +1,7 @@
 {
   "name": "Exemption state test !",
   "version": "1.0.0",
-  "description": "for node project!!",
+  "description": "for node proj!ect!!",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
