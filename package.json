@@ -8,7 +8,6 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
     "dependencies": {
-    "shall-quote":"1.8.3",
       "axios":"1.14.1"
   },
   "keywords": [],
