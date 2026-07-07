@@ -1,0 +1,14 @@
+⚠️ Warning: This repository intentionally contains vulnerable packages and insecure code patterns for security scanning, testing, and research purposes.
+
+Important
+Do NOT run npm install on your local or production environment unless you fully understand the risks.
+This project is created only for:
+Security scanner validation
+Vulnerability testing
+CI/CD security checks
+Research and educational purposes
+Usage
+Use this repository in isolated or sandbox environments only.
+
+Disclaimer
+The vulnerabilities included in this repository are intentional.
