@@ -1,7 +1,7 @@
 import java.io.IOException;
 public class Sample {
     public static void main(String[] args) throws IOException {
-        //!! Hardcoded scredential (SAST finding)!!!!!
+        //!!cc Hardcoded scredential (SAST finding)!!!!!
         String password = "sensitivePassword";
         System.out.println("Received password: " + password);
         // Command Injection (SAST finding)[
