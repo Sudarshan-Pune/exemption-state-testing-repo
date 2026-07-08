@@ -1,7 +1,7 @@
 {
   "name": "!Exemptiddon state test!!",
   "version": "1.0.0",
-  "description": "for node proj!cxcect!!",
+  "description": "fors node proj!cxcect!!",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
